@@ -25,5 +25,7 @@ public class MainFrame extends JFrame{
         setSize(600,500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//click exit Jframe stop running
         setVisible(true);//Jframe is unvisible default, set it to visible
+
+        toolBar.setTextPanel(textPanel);
     }
 }
